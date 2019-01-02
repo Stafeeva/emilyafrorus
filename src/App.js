@@ -1,27 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+
+import About from './Pages/About';
+import Home from './Pages/Home';
+import Portfolio from './Pages/Portfolio';
+import Contacts from './Pages/Contacts';
+
 import './App.css';
 
-import instaLogo from './images/icons/insta_logo.png';
-
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header>
-          <h1>Emily</h1>
-          <p>This website is under construction. Check back soon!</p>
-          <a
-            href="https://www.instagram.com/emily_the_afrorussian"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            <img
-              className="insta-icon"
-              alt=""
-              src={instaLogo} />
-          </a>
-        </header>
-      </div>
+      <Router>
+        <div className="App">
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contacts" component={Contacts} />
+        </div>
+      </Router>
     );
   }
 }
