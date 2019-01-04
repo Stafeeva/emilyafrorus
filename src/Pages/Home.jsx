@@ -12,6 +12,8 @@ class Home extends React.Component {
           <div className="image-container image-container--first" />
           <div className="image-container image-container--second" />
           <div className="image-container image-container--third" />
+          <div className="image-container image-container--forth" />
+          <div className="image-container image-container--fifth" />
         </div>
       </Layout>
     );

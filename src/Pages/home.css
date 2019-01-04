@@ -13,15 +13,23 @@
 }
 
 .image-container--first {
-  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_500/v1546620235/Emily/DSC_0408.jpg") no-repeat center;
+  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_700/v1546620235/Emily/DSC_0408.jpg") no-repeat center;
 }
 
 .image-container--second {
-  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_500/v1546620234/Emily/DSC_0417.jpg") no-repeat center;
+  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_700/v1546620234/Emily/DSC_0417.jpg") no-repeat center;
 }
 
 .image-container--third {
-  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_500/v1546620234/Emily/DSC_0404.jpg") no-repeat center;
+  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_700/v1546620234/Emily/DSC_0404.jpg") no-repeat center;
+}
+
+.image-container--forth {
+  background: url("https://res.cloudinary.com/stafeeva/image/upload/v1546624507/DSC_0335.jpg") no-repeat center;
+}
+
+.image-container--fifth {
+  background: url("https://res.cloudinary.com/stafeeva/image/upload/c_crop,w_1414,x_-100,y_10/v1546624507/DSC_0112.jpg") no-repeat center;
 }
 
 @media screen and (max-width: 800px) {
