@@ -25,3 +25,33 @@
 .insta-icon {
   width: 25px;
 }
+
+@media screen and (max-width: 720px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .navigation-link {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navigation {
+    display: block;
+  }
+
+  .nav-links-holder {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navigation-link {
+    font-size: 1rem;
+  }
+
+  .insta-icon {
+    width: 15px;
+  }
+}

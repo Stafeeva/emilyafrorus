@@ -9,9 +9,9 @@ class Home extends React.Component {
     return (
       <Layout>
         <div className="home">
-          <div className="image-container--first" />
-          <div className="image-container--second" />
-          <div className="image-container--third" />
+          <div className="image-container image-container--first" />
+          <div className="image-container image-container--second" />
+          <div className="image-container image-container--third" />
         </div>
       </Layout>
     );

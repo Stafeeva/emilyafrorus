@@ -1,26 +1,38 @@
 .home {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  margin: 1rem;
+  flex-grow: 1;
+  height: 40rem;
+  background-size: cover;
+  min-width: 20rem;
 }
 
 .image-container--first {
-  margin: 1rem;
-  flex-grow: 1;
-  height: 300px;
   background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_500/v1546620235/Emily/DSC_0408.jpg") no-repeat center;
-  background-size: cover;
 }
 
 .image-container--second {
-  margin: 1rem;
-  flex-grow: 1;
   background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_500/v1546620234/Emily/DSC_0417.jpg") no-repeat center;
-  background-size: cover;
 }
 
 .image-container--third {
-  margin: 1rem;
-  flex-grow: 1;
   background: url("https://res.cloudinary.com/stafeeva/image/upload/c_scale,w_500/v1546620234/Emily/DSC_0404.jpg") no-repeat center;
-  background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+  .image-container {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image-container {
+    height: 20rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+  }
 }
