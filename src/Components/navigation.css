@@ -1,18 +1,27 @@
 .navigation {
-  text-align: left;
-  flex-grow: 1;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
 
 .navigation-link {
-  display: block;
   text-decoration: none;
-  margin: 1rem 0;
+  margin: 0 1rem;
   font-size: 1.2rem;
   color: #000;
 }
 
+.nav-links-holder {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
 .title {
   font-family: 'Bad Script', cursive;
-  text-align: left;
-  margin-top: 0;
+  margin: 0;
+}
+
+.insta-icon {
+  width: 25px;
 }

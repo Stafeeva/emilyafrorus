@@ -6,7 +6,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <Layout>
-        <h1>Портфолио</h1>
+        <p>This website is under construction. Check back soon!</p>
       </Layout>
     );
   }

@@ -6,7 +6,7 @@ class Contacts extends React.Component {
   render() {
     return (
       <Layout>
-        <h1>Контакты</h1>
+        <p>This website is under construction. Check back soon!</p>
       </Layout>
     );
   }

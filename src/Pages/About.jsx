@@ -6,8 +6,7 @@ class About extends React.Component {
   render() {
     return (
       <Layout>
-        <h1>Об Эмили</h1>
-        <p>Эмили Тсикплону - начинающая модель.</p>
+        <p>This website is under construction. Check back soon!</p>
       </Layout>
     );
   }
